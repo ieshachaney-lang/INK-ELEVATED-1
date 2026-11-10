@@ -8,29 +8,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
     
     <!-- Global site tag (gtag.js) - Google Ads -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18225770213"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18567344758"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'AW-18225770213');
+      gtag('config', 'AW-18567344758');
     </script>
-    <!-- Google Ads Conversion Snippet -->
+
+    <!-- Event snippet for Page view conversion page -->
     <script>
-      function gtag_report_conversion(url) {
-        var callback = function () {
-          if (typeof(url) != 'undefined') {
-            window.location = url;
-          }
-        };
-        gtag('event', 'conversion', {
-            'send_to': 'AW-18225770213/5BZ0CPSugP0cEOXd3PJD',
-            'value': 1.0,
-            'currency': 'USD',
-            'event_callback': callback
-        });
-        return false;
-      }
+      gtag('event', 'conversion', {
+          'send_to': 'AW-18567344758/B0deCObY5rUdEPbkzJVF',
+          'value': 1.0,
+          'currency': 'USD'
+      });
+    </script>
+
+    <!-- Conversion tracking function for clicks or buttons -->
+    <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-18567344758/B0deCObY5rUdEPbkzJVF',
+          'value': 1.0,
+          'currency': 'USD',
+          'event_callback': callback
+      });
+      return false;
+    }
     </script>
     <style>
         :root {
